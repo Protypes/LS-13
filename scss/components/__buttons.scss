@@ -1,0 +1,46 @@
+.button {
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+
+    &.projects {
+        background-color: $primario;
+        padding: 16px 31.5px 16px 31.5px;
+    }
+    &.cv {
+        display: flex;
+        gap: 8px;
+        border: 1px solid $blanco;
+        padding: 14px 20px 14px 20px;
+    }
+    &.index-card {
+        display: flex;
+        gap: 10px;
+        border: 1.00px solid $blanco;
+        padding: 16px 20px;
+        width: 198px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        background-color: $rellenos;
+    }
+    &.projects {}
+}
+
+.carouselBtn {
+    transition: opacity 100ms;
+    position: relative;
+    background: none;
+    border: none;
+    color: black;
+    &.Prev {
+        top: -153px;
+        left: 7px;
+    }
+    &.Next {
+        top: -153px;
+        left: 1525px;
+    }
+}
+
